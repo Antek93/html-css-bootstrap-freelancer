@@ -1,3 +1,4 @@
+/* HEADER  */
 
 .header-color {
     background-color: #2c3e50;
@@ -28,6 +29,20 @@
 .right-head-text {
     display: flex;
     justify-content: flex-end;
+}
+
+/* MAIN  */
+/* FIRST BLOCK  */
+
+#avatar {
+    width: 35%;
+}
+
+.first-block {
+    display: flex;
+    justify-content: center;
+    background-color: #1abc9c;
+
 }
 
 
