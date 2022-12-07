@@ -31,15 +31,15 @@
         </div>
     </header>
     <main>
-        <!-- FIRST BLOCK  -->
-        <div class="container-fluid bg-info">
-            <div class="container-sm d-flex align-items-center flex-column mb-3 text-light fw-bold">
+        <!-- START BOOTSTRAP -->
+        <div class="container-fluid bg-info size">
+            <div class="pt-3 container-sm d-flex align-items-center flex-column mb-3 text-light fw-bold">
                 <!-- Immagine  -->
                 <img id="avatar" src="img/avatar.svg" alt="">
                 <!-- Testo immagine  -->
-                <div class="text-uppercase">Start Bootstrap</div>
+                <div class="text-uppercase pt-2">Start Bootstrap</div>
                 <!-- -----STELLA---- -->
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content- pt-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
                       </svg>
@@ -51,15 +51,17 @@
                       </svg>
                 </div>
                 <!-- DESCRIZIONE -->
-                <div class="text-uppercase"> Graphic Artist - Web Designer - Illustrator</div>
+                <div class="pt-2 pb-2 text-uppercase">
+                     <div>Graphic Artist - Web Designer - Illustrator</div>
+                </div>
             </div>
         </div>
-        <!-- SECOND BLOCK  -->
-        <div class="container-sm second block">
+        <!-- Portfolio -->
+        <div class="container-sm d-flex align-items-center flex-column mb-3 fw-bold">
 
             <!-- -----STELLA---- -->
             <div class="text-uppercase">Portfolio</div>
-            <div class="d-flex align-items-end">
+            <div class="d-flex align-items-end mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
                   </svg>
@@ -70,29 +72,84 @@
                     <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
                   </svg>
             </div>
-            <div class="img-container">
-                <div class="img-only">
-                    <img src="img/cabin.png" alt="...">
+            <!-- IMMAGINI  -->
+            <div class="pb-3 d-flex justify-content-center flex-wrap">
+                <div class="img-only mt-3">
+                    <img class="img-fluid round" src="img/cabin.png" alt="...">
                 </div>
-                <div class="img-only central-img">
-                    <img src="img/cake.png" alt="...">
+                <div class="img-only mt-3">
+                    <img class="img-fluid round" src="img/cake.png" alt="...">
                 </div>
-                <div class="img-only">
-                    <img src="img/circus.png" alt="...">
+                <div class="img-only mt-3">
+                    <img class="img-fluid round" src="img/circus.png" alt="...">
                 </div>
-                <div class="img-only">
-                    <img src="img/game.png" alt="...">
+                <div class="img-only mt-3">
+                    <img class="img-fluid round" src="img/game.png" alt="...">
                 </div>
-                <div class="img-only central-img">
-                    <img src="img/safe.png" alt="...">
+                <div class="img-only mt-3">
+                    <img class="img-fluid round" src="img/safe.png" alt="...">
                 </div>
-                <div class="img-only">
-                    <img src="img/submarine.png" alt="...">
+                <div class="img-only mt-3">
+                    <img class="img-fluid round" src="img/submarine.png" alt="...">
                 </div>
+            </div>
+        </div>
+        <!-- ABOUT  -->
+        <div class="container-fluid bg-info">
+            <div class="pt-3 container-sm d-flex align-items-center flex-column mb-3 text-light fw-bold">
+                <div class="text-uppercase">About</div>
+                <div class="d-flex align-items-end mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                  </svg>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                  </svg>
+                </div>
+                <div class="d-md-flex justify-content-between pb-2 text-start">
+                    <p class="pt-2">Freelancer is a free boostrap them created by Start Bootstrap.The download includes the complete source files including HTML, CSS,and Javascript as well as optional LESS styleesheets for east customization.</p>
+                    <p class="pt-2">Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to shar your projects, this template is the perfect starting point!</p>
+                </div>
+            </div>
+        </div>
+        <!-- CONTACT SECTION  -->
+        <div class="pt-3 container-sm d-flex align-items-center flex-column mb-3 fw-bold">
+            <div class="text-uppercase">Contact me</div>
+            <div class="d-flex align-items-end mb-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+              </svg>
+              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+              </svg>
             </div>
         </div>
 
     </main>
+    <footer>
+        <div class="container-fluid bg-secondary">
+            <div class="pt-3 container-sm d-flex align-items-center flex-column mb-3 text-light fw-bold">
+                <div class="text-uppercase">location</div>
+                <div>2215 John Daniel Drive Clark, MO</div>
+                <div>54243</div>
+                <div class="text-uppercase">around the world</div>
+                <div class="text-uppercase">about freelancer</div>
+                <div>Freelance is a free to use, open source Bootstrap theme created by<div>Start Boostrap</div>.</div>
+            </div>
+        </div>     
+        <div class="container-fluid bg-secondary">
+            <div class="pt-3 container-sm d-flex align-items-center flex-column mb-3 text-light fw-bold">
+                <div>Copyright @ Your Website 2019</div>
+            </div>
+        </div>     
+
+    </footer>
 
     
 </body>
