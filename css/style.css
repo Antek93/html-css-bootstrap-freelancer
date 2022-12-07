@@ -5,6 +5,7 @@
 
 .img-only {
     width: calc((100% / 1) - 15px);
+    margin: 0 auto;
 }
 
 .round {
@@ -16,7 +17,6 @@
     
     .img-only {
         width: calc((100% / 2) - 20px);
-        margin: 0 auto;
     }
 }
 
@@ -24,7 +24,6 @@
     
     .img-only {
         width: calc((100% / 3) - 20px);
-        margin: 0 auto;
     } 
 }
 
