@@ -4,7 +4,7 @@
 
 
 .img-only {
-    width: calc((100% / 1) - 15px);
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,6 +22,10 @@
 
 .parted {
     width: 100%;
+}
+
+.head-size {
+  font-size: 12px;
 }
 
 
@@ -42,6 +46,10 @@
     .parted {
         width: calc(100% / 2);
     }
+
+    .head-size {
+       font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -55,7 +63,12 @@
     }
 
     .parted {
-        width: calc((100% / 2) - 20px);
+        width: calc((100% / 2) - 25px);
+        font-size: 19px;
+    }
+
+    .head-size {
+       font-size: 23px;
     }
 
 }
