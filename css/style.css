@@ -12,11 +12,35 @@
     border-radius: 10px;
 }
 
+.size {
+    font-size: 11px;
+}
+
+.backcol {
+    background-color: #3a546d;
+}
+
+.parted {
+    width: 100%;
+}
+
 
 @media screen and (min-width: 768px) {
     
     .img-only {
         width: calc((100% / 2) - 20px);
+    }
+
+    .size {
+        font-size: 20px;
+    }
+
+    .block {
+        width: calc(100% / 3);
+    }
+
+    .parted {
+        width: calc(100% / 2);
     }
 }
 
@@ -25,6 +49,15 @@
     .img-only {
         width: calc((100% / 3) - 20px);
     } 
+
+    .size {
+        font-size: 30px;
+    }
+
+    .parted {
+        width: calc((100% / 2) - 20px);
+    }
+
 }
 
 
