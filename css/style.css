@@ -32,6 +32,32 @@
     background-color: #1abc9c;
 }
 
+.title-size {
+    margin-right: 
+}
+
+/* FORM  */
+
+.input-style {
+    border: none;
+}
+
+.send {
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    color: white;
+}
+
+/* A scomparsa */
+
+.button-style {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+
+}
+
 @media screen and (min-width: 768px) {
     
     .img-only {
@@ -72,6 +98,10 @@
 
     .head-size {
        font-size: 23px;
+    }
+
+    #avatar {
+    width: 25%;
     }
 
 }
